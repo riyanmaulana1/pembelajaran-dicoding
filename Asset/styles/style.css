@@ -1,6 +1,8 @@
+/* menggunakan font hasil dari library google font */
 body{
     font-family: 'quicksand',sans-serif;
 }
+/* perubahan pada font judul */
 h1 {
     color: green;
 }
@@ -8,8 +10,29 @@ h2,h3 {
 color: #00a2c6;
 }
 
+/*perubahan pada footer  */
 footer {
+    /* membuat padding (bagian) */
     padding: 20px;
     color: white;
+    /* karena memiliki padding maka ketika mendeklarasika warna background akan terkena seluruh padding */
     background-color: #00a2c6;
+    
+    text-align: center;
+    font-weight: bold;
+}
+
+/*membuat perubahan font pada list di header*/
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+/* perubahan pada list (angker(a)) */
+nav a:hover {
+font-weight: bold;
+}
+/* perubahan pada header bagian class profile */
+.profile header{
+    text-align: center;
 }
