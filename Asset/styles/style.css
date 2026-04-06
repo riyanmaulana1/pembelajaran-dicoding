@@ -36,3 +36,8 @@ font-weight: bold;
 .profile header{
     text-align: center;
 }
+/* perubahan pada bagian image */
+.featured-image{
+    width: 100%;
+    max-height: 300px;
+}
