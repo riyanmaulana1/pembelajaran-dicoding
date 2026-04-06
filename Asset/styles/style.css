@@ -1,6 +1,8 @@
 /* menggunakan font hasil dari library google font */
 body{
     font-family: 'quicksand',sans-serif;
+    margin: 0;
+    padding: 0;
 }
 /* perubahan pada font judul */
 h1 {
@@ -44,9 +46,11 @@ font-weight: bold;
     object-fit: cover;
     object-position: center;
 }
+/*ukuran img agar di crop  */
 .profile img {
     width: 200px;
 }
+/* membuat padding heading */
 .jumbotron{
     font-size: 20px;
     padding: 60px;
@@ -54,16 +58,25 @@ font-weight: bold;
     text-align: center;
     color: white;
 }
+/* membuat model card pada setiap article */
 .card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
 }
+/* margin pada list dan pembuatan list menjadi sebaris */
 nav li{
     display: inline;
     list-style-type: none;
     margin-right: 20px;
 }
+/* membuat padding pada list  */
 nav {
     background-color: #00a2c6;
     padding: 5px;
+}
+/* perubahan main */
+main{
+    padding: 20px;
 }
