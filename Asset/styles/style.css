@@ -80,6 +80,9 @@ nav li{
 nav {
     background-color: #00a2c6;
     padding: 5px;
+
+    position: sticky;
+    top: 0;
 }
 /* styling untuk form pertanyaan */
 .pertanyaan {
@@ -95,9 +98,19 @@ main{
     float: left;
     width: 75%;
 }
+/* setting untuk header pada artikel */
+header {
+    display: inline;
+}
 /* setting asside */
 aside {
     float: right;
     width: 25%;
     padding-left: 20px;
+}
+/* membuat responsive untuk ukuran layar 1000px kebawah */
+@media screen and (max-width: 1000px) {
+    #content, aside {
+    width: 100%;
+    padding: 0; }
 }
