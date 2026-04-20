@@ -1,3 +1,8 @@
+/* setting semua */
+* {
+    /* membuat box model untuk semua elemen */
+    box-sizing: border-box;
+}
 /* menggunakan font hasil dari library google font */
 body{
     font-family: 'quicksand',sans-serif;
@@ -76,7 +81,23 @@ nav {
     background-color: #00a2c6;
     padding: 5px;
 }
+/* styling untuk form pertanyaan */
+.pertanyaan {
+    margin-top: 20px;
+}
 /* perubahan main */
 main{
     padding: 20px;
+    overflow: auto;
+}
+/* setting untuk konten artikeluntuk asside */
+#Content {
+    float: left;
+    width: 75%;
+}
+/* setting asside */
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
 }
