@@ -1,0 +1,2 @@
+<h1>merupakan pembelajaran saya mengenai pembuatan web dasar dari course dicoding</h1>
+<img src="https://jobs.dicoding.com/_next/image?url=https%3A%2F%2Fdicoding-web-img.sgp1.digitaloceanspaces.com%2Foriginal%2Fjobs%2Fdos%3Acompany_logo_dicoding_indonesia_050423140704.jpg&w=384&q=75" alt="dicoding logo">
